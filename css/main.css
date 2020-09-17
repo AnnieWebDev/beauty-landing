@@ -84,6 +84,10 @@ h4 {
     padding: 20px 0;
 }
 
+.header-elements .header-elements__button {
+    padding: 12px 26px;
+}
+
 .search .search__input {
     background: #EFEFEF;
     border-radius: 40px;
@@ -112,6 +116,13 @@ h4 {
     top: 50%;
     z-index: 2;
     margin-top: -10px;
+}
+
+.phone .phone__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
 }
 
 .submenu {
@@ -301,4 +312,116 @@ main {
 
 .recently-viewed .recently-viewed__title {
     margin-bottom: 38px;
+}
+
+/* MAIN SECTION POPULAR CATEGORIES*/
+
+.popular-categories {
+    background-color: white;
+    padding: 60px 0;
+}
+
+.popular-categories .popular-categories__columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-categories .popular-categories__column {
+    width: 255px;
+}
+
+.popular-categories .popular-categories__title {
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+}
+
+.popular-categories .popular-categories__item {
+    margin-bottom: 10px;
+}
+
+/* FOOTER*/
+
+.footer {
+    background-color: white;
+}
+
+.footer .footer__top {
+    border-top: 1px solid #EFEFEF;
+}
+
+.footer-elements {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 0;
+    line-height: 0;
+    align-items: center;
+}
+
+.social-networks .social-networks__link {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+
+}
+
+.social-networks .social-networks__link:last-child {
+    margin-right: 0;
+}
+
+.social-networks .social-networks__link.social-networks__link_youtube {
+    background-image: url('../images/icons/youtube.svg');
+}
+
+.social-networks .social-networks__link.social-networks__link_vk {
+    background-image: url('../images/icons/vk.svg');
+}
+
+.social-networks .social-networks__link.social-networks__link_fb {
+    background-image: url('../images/icons/fb.svg');
+}
+
+.social-networks .social-networks__link.social-networks__link_instagram {
+    background-image: url('../images/icons/instagram.svg');
+}
+
+.footer-elements .footer-elements__address {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.phone .phone__link.footer-elements__phone {
+    margin-right: 40px;
+}
+
+.footer-elements .footer-elements__button {
+    padding: 12px 26px;
+}
+
+.footer .footer__bottom {
+    background-color: #EFEFEF;
+}
+
+.footer-copyrights {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.footer-copyrights .footer-copyrights__text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.footer-copyrights .footer-copyrights__link {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
 }
